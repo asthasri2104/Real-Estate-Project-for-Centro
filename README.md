@@ -21,3 +21,24 @@ The client wants to identify key indicators of rent and sale price by analyzing 
 fields such as property location, construction material, unit size, rent per square foot, and last sale
 price. They would also like to stitch this data with external data from publicly available data sources
 to better capture the supply and demand of the market.
+
+**Solution**
+This report is based on the study that was conducted over 20,000 rental properties in Texas, Florida,
+Georgia, and North Carolina and identifies 29 critical features that are functional indicators in
+predicting rent price. The raw dataset provided by the client includes hundreds of columns of information on rental
+properties ranging from property location to unit size. Exploratory data analysis and visualizations of
+the data uncovered anomalies present within variables as well as correlations between variables. Such
+findings led to the urge for using _**linear regression**_ to test the observed patterns, and to potentially
+reveal unobserved ones.
+In preparation for modeling, the original data was cleaned, transformed, and then supplemented with
+external data that captures the demographics and affluence of the population in the area. A total of 24
+numerical variables alongside six categorical variables were tested against average effective rent per
+square foot. Twenty-nine out of the thirty variables tested turned out to be significant indicators of
+rent.
+Using the linear regression model as the foundation, an excel based price prediction tool prototype
+was developed for Centro (the client) that takes features of a rental property as input and calculates
+estimated rental income and suggests sale price as output. Centro can improve its return on investment
+by using this tool to find properties that are highly underpriced.
+It is important to note that there are limitations to this study. In order to achieve better prediction
+accuracy, the client can work on improving data quality, including more data on properties or
+variables, and incorporating longitudinal data in future studies.
