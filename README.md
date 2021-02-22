@@ -1,6 +1,7 @@
 # Real-Estate-Project-for-Centro
 
 **Background**
+
 Real estate is the largest asset class in the world and plays a crucial role in the U.S. economy. Most
 real estate firms have made decisions in the past based on intuition, experience, and historical data.
 Today, with the availability of modern tools and the huge amount of high-quality data that has never
@@ -16,6 +17,7 @@ create an automated evaluation model that will not only help the company make mo
 decisions but also speed up the decision-making process.
 
 **About the Problem**
+
 The client wants to identify key indicators of rent and sale price by analyzing two datasets of over
 20,000 rental properties in Texas, Florida, Georgia, and North Carolina which include hundreds of
 fields such as property location, construction material, unit size, rent per square foot, and last sale
@@ -23,6 +25,7 @@ price. They would also like to stitch this data with external data from publicly
 to better capture the supply and demand of the market.
 
 **Solution**
+
 This report is based on the study that was conducted over 20,000 rental properties in Texas, Florida,
 Georgia, and North Carolina and identifies 29 critical features that are functional indicators in
 predicting rent price. The raw dataset provided by the client includes hundreds of columns of information on rental
